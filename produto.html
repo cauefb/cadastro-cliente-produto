@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Cadastros</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/VTEX_Logo.svg.png" alt="logo" />
+      <nav>
+        <ul class="nav_links">
+          <li><a href="/index.html">Clientes</a></li>
+          <li><a href="/produto.html">Produtos</a></li>
+        </ul>
+      </nav>
+      <!-- ,<a class="cta" href="#"><button>contact</button></a> -->
+    </header>
+    <div class="wrapper">
+      <div class="title">Cadastro de Produtos</div>
+      <form class="form" id="formProd">
+        <div class="input_field">
+          <label for="">SKU</label>
+          <input type="text" class="input" id="sku" />
+        </div>
+        <div class="input_field">
+          <label for="">Nome</label>
+          <input type="emai" class="input" id="nome" />
+        </div>
+        <div class="input_field">
+          <label for="">Peso</label>
+          <input type="text" class="input" id="peso" />
+        </div>
+        <div class="input_field">
+          <label for="">Altura</label>
+          <input type="text" class="input" id="altura" />
+        </div>
+        <div class="input_field">
+          <label for="">Largura</label>
+          <input type="text" class="input" id="largura" />
+        </div>
+        <div class="input_field">
+          <label for="">Descrição</label>
+          <input type="text" class="input" id="descricao" />
+        </div>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+      <div class="content" id="content"></div>
+    </div>
+  </body>
+  <script src="js/scriptProduto.js"></script>
+</html>
