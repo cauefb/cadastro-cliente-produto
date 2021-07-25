@@ -20,7 +20,7 @@ form.addEventListener("submit", (e) => {
 
   let convertData = JSON.stringify(data);
 
-  localStorage.setItem("leadProd", convertData);
+  localStorage.setItem("product", convertData);
 
   let content = document.getElementById("content");
 

@@ -25,7 +25,7 @@ form.addEventListener("submit", (e) => {
 
   let convertData = JSON.stringify(data);
 
-  localStorage.setItem("lead", convertData);
+  localStorage.setItem("client", convertData);
 
   let content = document.getElementById("content");
 
